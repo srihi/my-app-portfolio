@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Udacity Portfolio</string>
+    <string name="portfolio_title">My Nanodegree Apps</string>
+    <string name="spotifyStreamerLabel">SPOTIFY STREAMER</string>
+    <string name="scoresAppLabel">SCORES APP</string>
+    <string name="libraryAppLabel">LIBRARY APP</string>
+    <string name="buildItBiggerLabel">BUILD IT BIGGER</string>
+    <string name="xyzReaderLabel">XYZ READER</string>
+    <string name="capstoneLabel">CAPSTONE: MY OWN APP</string>
+    <string name="action_settings">Settings</string>
+</resources>
