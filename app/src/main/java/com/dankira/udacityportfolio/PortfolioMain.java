@@ -1,6 +1,5 @@
 package com.dankira.udacityportfolio;
 
-import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -79,10 +78,9 @@ public class PortfolioMain extends ActionBarActivity {
 
     private void ShowCustomToast(String textMessage) {
         LayoutInflater inflater = getLayoutInflater();
-        View toastLayout = inflater.inflate(R.layout.custom_toast,
-                (ViewGroup) findViewById(R.id.toast_layout_root));
+        View toastLayout = inflater.inflate(R.layout.custom_toast,(ViewGroup) findViewById(R.id.toast_layout_root));
 
-        TextView toastTextView = (TextView) toastLayout.findViewById(R.id.text);
+        TextView toastTextView = (TextView) toastLayout.findViewById(R.id.toast_textArea);
         toastTextView.setText("This button will Launch "+textMessage);
 
         Toast toast = new Toast(getApplicationContext());

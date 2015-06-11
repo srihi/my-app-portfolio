@@ -23,7 +23,7 @@
         android:layout_marginBottom="@dimen/buttons_vertical_margin"
         android:text="@string/spotifyStreamerLabel"
         android:id="@+id/btn_spotifyStreamer"
-        android:background="@color/butttonDeepOrange"/>
+        android:background="@color/buttonDeepOrange"/>
 
     <Button
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:layout_marginBottom="@dimen/buttons_vertical_margin"
         android:text="@string/scoresAppLabel"
         android:id="@+id/btn_scoresApp"
-        android:background="@color/butttonDeepOrange"/>
+        android:background="@color/buttonDeepOrange"/>
 
     <Button
         android:layout_width="match_parent"
@@ -44,7 +44,7 @@
         android:text="@string/libraryAppLabel"
         android:id="@+id/btn_libraryApp"
         android:layout_gravity="bottom"
-        android:background="@color/butttonDeepOrange"/>
+        android:background="@color/buttonDeepOrange"/>
 
     <Button
         android:layout_width="match_parent"
@@ -55,7 +55,7 @@
         android:text="@string/buildItBiggerLabel"
         android:id="@+id/btn_buildItBigger"
         android:layout_gravity="center_vertical"
-        android:background="@color/butttonDeepOrange"/>
+        android:background="@color/buttonDeepOrange"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -65,7 +65,7 @@
         android:text="@string/xyzReaderLabel"
         android:id="@+id/btn_xyzReader"
         android:layout_gravity="center_vertical"
-        android:background="@color/butttonDeepOrange"/>
+        android:background="@color/buttonDeepOrange"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -76,5 +76,4 @@
         android:id="@+id/btn_capstone"
         android:layout_gravity="center_vertical"
         android:background="@color/buttonPink"/>
-
 </LinearLayout>
